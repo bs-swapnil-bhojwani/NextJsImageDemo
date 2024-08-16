@@ -15,7 +15,7 @@ export default function NavBar() {
                     <Nav className="me-auto">
                         {/* <Nav.Link href="/" active={pathname==='/'}>Home</Nav.Link> */}
                         <Nav.Link href="/static" active={pathname === '/static'}>Static</Nav.Link>
-                        <Nav.Link href="/dynamic" active={pathname === '/dynamic'}>Dyanmic</Nav.Link>
+                        <Nav.Link href="/dynamic" active={pathname === '/dynamic'}>Dynamic</Nav.Link>
                         {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">
